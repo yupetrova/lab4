@@ -24,3 +24,34 @@ def PrimeNum(n): #опис функції
     else:
       print("Введене число НЕ є простим")
 
+<<<<<<< Updated upstream
+=======
+
+#чи є число степенем 5
+
+import math
+def pow_five(n):
+    if n < 1 :
+        raise ValueError("Please, input integer >= 1")
+    elif n == 1:
+        return True
+    elif math.log(n, 5) % 1 == 0:
+            return True
+    else:
+        return False
+
+
+# чи є введене число степенем 2
+
+import math
+
+def pow_two(n):
+    if n < 1:
+        raise ValueError("Please, input integer >= 1")
+    elif n == 1:
+        return True
+    elif math.log(n, 2) % 1 == 0:
+        return True
+    else:
+        return False
+>>>>>>> Stashed changes
